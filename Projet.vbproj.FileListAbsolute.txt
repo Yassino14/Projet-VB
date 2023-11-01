@@ -1,0 +1,13 @@
+C:\Users\USER\Desktop\VB\Projet\Projet\bin\Debug\Projet.exe.config
+C:\Users\USER\Desktop\VB\Projet\Projet\bin\Debug\Projet.exe
+C:\Users\USER\Desktop\VB\Projet\Projet\bin\Debug\Projet.pdb
+C:\Users\USER\Desktop\VB\Projet\Projet\bin\Debug\Projet.xml
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.vbproj.AssemblyReference.cache
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.Form1.resources
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.Resources.resources
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.vbproj.GenerateResource.cache
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.vbproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.exe
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.xml
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.pdb
+C:\Users\USER\Desktop\VB\Projet\Projet\obj\Debug\Projet.Form2.resources

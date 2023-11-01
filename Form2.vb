@@ -14,8 +14,20 @@
             txt_prixu.Text = 1000
 
         End If
-        p = txt_prixu.Text * txt_qtn.Text
-        txt_mtn.Text = p
+
+
+
+
+
+
+
+
+        If txt_qtn.Text > 0 Then
+            p = txt_prixu.Text * txt_qtn.Text
+            txt_mtn.Text = p
+        Else
+            txt_qtn.Clear()
+        End If
 
     End Sub
 
@@ -23,6 +35,7 @@
         Dim a2, a3, a4 As Integer
         Dim a1 As String
         Dim somme, somme2, somme3 As Integer
+
         a1 = lst_prod.SelectedItem
         a2 = txt_prixu.Text
         a3 = txt_qtn.Text
@@ -100,8 +113,11 @@
 
     Private Sub btn_payer_Click(sender As Object, e As EventArgs) Handles btn_payer.Click
         Dim s As Integer = 4500
+        Dim ch As String
         If s >= txt_r.Text Then
-            txt_code.Text = " Fini "
+            s = (s - txt_r.Text)
+            ch = s.ToString + " DT"
+            txt_code.Text = ch
         Else
             txt_code.Text = " Solde insuffisant "
         End If

@@ -103,25 +103,29 @@ Partial Class Form2
         '
         'lst_prod
         '
+        Me.lst_prod.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lst_prod.FormattingEnabled = True
+        Me.lst_prod.ItemHeight = 18
         Me.lst_prod.Items.AddRange(New Object() {"Clavier", "Imprimante", "Ordinateur", "Souris"})
         Me.lst_prod.Location = New System.Drawing.Point(154, 29)
         Me.lst_prod.Name = "lst_prod"
-        Me.lst_prod.Size = New System.Drawing.Size(100, 17)
+        Me.lst_prod.Size = New System.Drawing.Size(125, 22)
         Me.lst_prod.TabIndex = 4
         '
         'txt_prixu
         '
-        Me.txt_prixu.Location = New System.Drawing.Point(162, 82)
+        Me.txt_prixu.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_prixu.Location = New System.Drawing.Point(154, 77)
         Me.txt_prixu.Name = "txt_prixu"
-        Me.txt_prixu.Size = New System.Drawing.Size(83, 20)
+        Me.txt_prixu.Size = New System.Drawing.Size(100, 24)
         Me.txt_prixu.TabIndex = 5
         '
         'txt_mtn
         '
+        Me.txt_mtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_mtn.Location = New System.Drawing.Point(154, 197)
         Me.txt_mtn.Name = "txt_mtn"
-        Me.txt_mtn.Size = New System.Drawing.Size(108, 20)
+        Me.txt_mtn.Size = New System.Drawing.Size(100, 24)
         Me.txt_mtn.TabIndex = 7
         '
         'btn_ajout
@@ -162,8 +166,9 @@ Partial Class Form2
         'btn_calcul
         '
         Me.btn_calcul.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btn_calcul.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btn_calcul.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_calcul.Location = New System.Drawing.Point(27, 289)
+        Me.btn_calcul.Location = New System.Drawing.Point(27, 388)
         Me.btn_calcul.Name = "btn_calcul"
         Me.btn_calcul.Size = New System.Drawing.Size(83, 62)
         Me.btn_calcul.TabIndex = 11
@@ -173,9 +178,10 @@ Partial Class Form2
         'btn_quitter
         '
         Me.btn_quitter.BackColor = System.Drawing.Color.IndianRed
+        Me.btn_quitter.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_quitter.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_quitter.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_quitter.Location = New System.Drawing.Point(154, 293)
+        Me.btn_quitter.Location = New System.Drawing.Point(154, 395)
         Me.btn_quitter.Name = "btn_quitter"
         Me.btn_quitter.Size = New System.Drawing.Size(83, 55)
         Me.btn_quitter.TabIndex = 12
@@ -184,9 +190,10 @@ Partial Class Form2
         '
         'txt_qtn
         '
-        Me.txt_qtn.Location = New System.Drawing.Point(154, 139)
+        Me.txt_qtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_qtn.Location = New System.Drawing.Point(154, 146)
         Me.txt_qtn.Name = "txt_qtn"
-        Me.txt_qtn.Size = New System.Drawing.Size(115, 20)
+        Me.txt_qtn.Size = New System.Drawing.Size(100, 24)
         Me.txt_qtn.TabIndex = 13
         '
         'Label1
@@ -205,7 +212,7 @@ Partial Class Form2
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(474, 22)
+        Me.Label2.Location = New System.Drawing.Point(532, 22)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(123, 24)
         Me.Label2.TabIndex = 15
@@ -216,7 +223,7 @@ Partial Class Form2
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(598, 22)
+        Me.Label3.Location = New System.Drawing.Point(726, 22)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(88, 24)
         Me.Label3.TabIndex = 16
@@ -227,7 +234,7 @@ Partial Class Form2
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(683, 22)
+        Me.Label4.Location = New System.Drawing.Point(866, 22)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(118, 24)
         Me.Label4.TabIndex = 17
@@ -235,34 +242,42 @@ Partial Class Form2
         '
         'lst_qtn
         '
+        Me.lst_qtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lst_qtn.FormattingEnabled = True
-        Me.lst_qtn.Location = New System.Drawing.Point(602, 61)
+        Me.lst_qtn.ItemHeight = 16
+        Me.lst_qtn.Location = New System.Drawing.Point(706, 61)
         Me.lst_qtn.Name = "lst_qtn"
-        Me.lst_qtn.Size = New System.Drawing.Size(95, 82)
+        Me.lst_qtn.Size = New System.Drawing.Size(119, 132)
         Me.lst_qtn.TabIndex = 18
         '
         'lst_mtn
         '
+        Me.lst_mtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lst_mtn.FormattingEnabled = True
-        Me.lst_mtn.Location = New System.Drawing.Point(706, 61)
+        Me.lst_mtn.ItemHeight = 16
+        Me.lst_mtn.Location = New System.Drawing.Point(870, 61)
         Me.lst_mtn.Name = "lst_mtn"
-        Me.lst_mtn.Size = New System.Drawing.Size(95, 82)
+        Me.lst_mtn.Size = New System.Drawing.Size(117, 132)
         Me.lst_mtn.TabIndex = 19
         '
         'lst_prixu
         '
+        Me.lst_prixu.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lst_prixu.FormattingEnabled = True
-        Me.lst_prixu.Location = New System.Drawing.Point(501, 61)
+        Me.lst_prixu.ItemHeight = 16
+        Me.lst_prixu.Location = New System.Drawing.Point(537, 61)
         Me.lst_prixu.Name = "lst_prixu"
-        Me.lst_prixu.Size = New System.Drawing.Size(95, 82)
+        Me.lst_prixu.Size = New System.Drawing.Size(118, 132)
         Me.lst_prixu.TabIndex = 20
         '
         'lst_pr
         '
+        Me.lst_pr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lst_pr.FormattingEnabled = True
+        Me.lst_pr.ItemHeight = 16
         Me.lst_pr.Location = New System.Drawing.Point(400, 61)
         Me.lst_pr.Name = "lst_pr"
-        Me.lst_pr.Size = New System.Drawing.Size(95, 82)
+        Me.lst_pr.Size = New System.Drawing.Size(95, 132)
         Me.lst_pr.TabIndex = 21
         '
         'lbl_tot
@@ -270,7 +285,7 @@ Partial Class Form2
         Me.lbl_tot.AutoSize = True
         Me.lbl_tot.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.lbl_tot.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_tot.Location = New System.Drawing.Point(401, 220)
+        Me.lbl_tot.Location = New System.Drawing.Point(412, 238)
         Me.lbl_tot.Name = "lbl_tot"
         Me.lbl_tot.Size = New System.Drawing.Size(56, 24)
         Me.lbl_tot.TabIndex = 22
@@ -278,23 +293,26 @@ Partial Class Form2
         '
         'txt_totpu
         '
-        Me.txt_totpu.Location = New System.Drawing.Point(501, 220)
+        Me.txt_totpu.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_totpu.Location = New System.Drawing.Point(553, 238)
         Me.txt_totpu.Name = "txt_totpu"
-        Me.txt_totpu.Size = New System.Drawing.Size(83, 20)
+        Me.txt_totpu.Size = New System.Drawing.Size(83, 24)
         Me.txt_totpu.TabIndex = 23
         '
         'txt_totq
         '
-        Me.txt_totq.Location = New System.Drawing.Point(603, 220)
+        Me.txt_totq.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_totq.Location = New System.Drawing.Point(730, 238)
         Me.txt_totq.Name = "txt_totq"
-        Me.txt_totq.Size = New System.Drawing.Size(83, 20)
+        Me.txt_totq.Size = New System.Drawing.Size(83, 24)
         Me.txt_totq.TabIndex = 24
         '
         'txt_totmh
         '
-        Me.txt_totmh.Location = New System.Drawing.Point(706, 220)
+        Me.txt_totmh.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_totmh.Location = New System.Drawing.Point(884, 238)
         Me.txt_totmh.Name = "txt_totmh"
-        Me.txt_totmh.Size = New System.Drawing.Size(83, 20)
+        Me.txt_totmh.Size = New System.Drawing.Size(83, 24)
         Me.txt_totmh.TabIndex = 25
         '
         'Label5
@@ -302,7 +320,7 @@ Partial Class Form2
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(396, 273)
+        Me.Label5.Location = New System.Drawing.Point(354, 333)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(103, 24)
         Me.Label5.TabIndex = 26
@@ -313,31 +331,33 @@ Partial Class Form2
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(396, 324)
+        Me.Label6.Location = New System.Drawing.Point(377, 408)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(80, 24)
+        Me.Label6.Size = New System.Drawing.Size(130, 24)
         Me.Label6.TabIndex = 27
-        Me.Label6.Text = "Remise"
+        Me.Label6.Text = "Montant TTC"
         '
         'txt_tva
         '
-        Me.txt_tva.Location = New System.Drawing.Point(543, 278)
+        Me.txt_tva.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_tva.Location = New System.Drawing.Point(525, 338)
         Me.txt_tva.Name = "txt_tva"
-        Me.txt_tva.Size = New System.Drawing.Size(202, 20)
+        Me.txt_tva.Size = New System.Drawing.Size(202, 24)
         Me.txt_tva.TabIndex = 28
         '
         'txt_r
         '
-        Me.txt_r.Location = New System.Drawing.Point(543, 328)
+        Me.txt_r.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_r.Location = New System.Drawing.Point(525, 410)
         Me.txt_r.Name = "txt_r"
-        Me.txt_r.Size = New System.Drawing.Size(202, 20)
+        Me.txt_r.Size = New System.Drawing.Size(202, 24)
         Me.txt_r.TabIndex = 29
         '
         'btn_payer
         '
         Me.btn_payer.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.btn_payer.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_payer.Location = New System.Drawing.Point(299, 272)
+        Me.btn_payer.Location = New System.Drawing.Point(884, 485)
         Me.btn_payer.Name = "btn_payer"
         Me.btn_payer.Size = New System.Drawing.Size(65, 31)
         Me.btn_payer.TabIndex = 30
@@ -346,9 +366,10 @@ Partial Class Form2
         '
         'txt_code
         '
-        Me.txt_code.Location = New System.Drawing.Point(277, 311)
+        Me.txt_code.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_code.Location = New System.Drawing.Point(967, 471)
         Me.txt_code.Name = "txt_code"
-        Me.txt_code.Size = New System.Drawing.Size(108, 20)
+        Me.txt_code.Size = New System.Drawing.Size(108, 24)
         Me.txt_code.TabIndex = 31
         Me.txt_code.Text = "4500DT"
         '
@@ -356,7 +377,7 @@ Partial Class Form2
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(271, 344)
+        Me.Label7.Location = New System.Drawing.Point(964, 518)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(122, 18)
         Me.Label7.TabIndex = 32
@@ -367,7 +388,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1189, 589)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.txt_code)
         Me.Controls.Add(Me.btn_payer)
